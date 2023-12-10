@@ -1,7 +1,17 @@
-const arr =  [];
-arr[0] = prompt('как тебя зовут?', '');
-arr[1] = prompt('Сколько тебе лет?', );
-arr[2] = prompt('где ты учишься?', '');
-arr[3] = prompt('какой факультет', '');
+let numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?');
 
- let result = alert('Тебя зовут ' + arr[0] + ',' + 'тебе ' + arr[1] + ' лет ' + ', ' + ' ты учишься в ' + arr[2] + ', ' + ' на ' + arr[3 + 'ом'] + ' факультете ');
+let personalMovieDB = {
+    count: (numberOfFilms),
+    movies: {},
+    genres: [],
+    privat: false
+};
+
+const result = prompt('Один из последних просмотренных фильмов?');
+const result2 = prompt('На сколько оцените его?');
+const result3 = prompt('Один из последних просмотренных фильмов?');
+const result4 = prompt('На сколько оцените его?');
+personalMovieDB.movies[result] = result2;
+personalMovieDB.movies[result3] = result4;
+
+console.log(personalMovieDB);
